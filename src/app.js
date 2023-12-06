@@ -100,7 +100,7 @@ function filterByAwardxCountry(award,country) {
 }
 
 //Progression 8 - Filter players that won atleast ______ awards, belong to ______ team and are younger than ____
-function filterByNumber(noAwards,team,age){
+function filterByNoOfAwardsxTeamxAge(noAwards,team,age){
   var data =players.filter(player=>(player.age<age &&player.team==team && player.awards.length));
   return data;
 }
